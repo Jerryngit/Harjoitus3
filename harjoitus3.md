@@ -32,6 +32,6 @@ b)Loin 5 uutta tiedostoa, jotka vein samalla kertaa git-varastooni
   tiedostojen sisältöön  muutoksia, ja vein ne uudestaan samaan aikaan
   samoilla komennoilla git.varastoon (kuva 3). 
 
-![Kuva1](/home/jerry/Pictures/commit1.png) 
+![Kuva1](commit1.png) 
 
 c) Kansiossa  
