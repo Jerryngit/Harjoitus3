@@ -53,4 +53,22 @@ Kuva 4
  Näistä tiedoista nähdään, kuka tiedostoa on muokannut, milloin ja mikä on 
  ollut git commit-viesti.
 
-  
+ Komento git diff ei yksinään aiheuttanut mitään, mutta tutkittuani asiaa,
+ löysin Career Karma -sivuston artikkelista Git Diff: A How-To Guide eri
+ asioita, joita kyseisellä komennolla voi suorittaa. Yksi niistä oli
+ kahden git commitin ID:n vertailu. Komennolla git log --pretty=oneline
+ saatiin näkyviin eri versiot ja niiden ID:t (kuva 5).
+
+![Kuva5](gitdiff1.png)
+
+Kuva 5
+
+ Komento git diff ja kahden eri ID:n laitto perään näyttää molempien 
+ versioiden muutokset ja sisällön, jolloin voi verrata niitä (kuva 6).
+ Kuvassa näkyy punaisella vanhempi versio ja vihreällä uudempi.
+
+![Kuva6](gitdiff2.png)
+
+Kuva 6
+
+
