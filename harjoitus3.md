@@ -10,7 +10,7 @@ z) Tämä tehtävä on tehty omalla pöytäkoneellani VM VirtualBoxissa Debian
   paremmin luettavaan muotoon.
 * Tutoriaali, jossa kokeillaan, mitä eri merkit tekevät, tässä muutama
   esimerkki:
-*  = Otsikko 1
+* #\ = Otsikko 1
 *  = Otsikko 2
 * [linkki](linkin osoite)
 * ![kuva](kuvan osoite)
