@@ -30,12 +30,18 @@ b)Loin 5 uutta tiedostoa, jotka vein samalla kertaa git-varastooni
   varastoon. Komennolla git show pystyin katsomaan, mitä on viimeksi
   Lähettetty git commitin yhteydessä (kuva 2). Tämän jälkeen tein
   tiedostojen sisältöön  muutoksia, ja vein ne uudestaan samaan aikaan
-  samoilla komennoilla git.varastoon (kuva 3). 
+  samoilla komennoilla git.varastoon, ja git commit näytti tältä: (kuva 3) 
 
 ![Kuva1](commit1.png) 
+
 Kuva 1
 
 ![Kuva2](commitshow.png)
-Kuva2
+
+Kuva 2
+
+![Kuva3](commit2.png)
+
+Kuva 3
 
 c) Kansiossa  
