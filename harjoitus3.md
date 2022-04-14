@@ -71,4 +71,13 @@ Kuva 5
 
 Kuva 6
 
+ Git Blame komennolle löysin Atlassian Git Blame-tutoriaalista seuraavan
+ käyttötarkoituksen: kun ajaa esim. git blame harjoitus3.md -komennon,
+ tulos on seuraavanlainen: (kuva 7)
 
+![Kuva7](gitblame1)
+
+ Komento siis näyttää kaikki muutokset tietyssä tiedostossa, kuka ne on
+ tehnyt milloin ne on tehty ja mitä on tehty. Git Blame-tutoriaalin mukaan
+ komento on erityisen hyvä virheitten tunnistamiseen, koska sen avulla
+ nähdään helposti, missä ja milloin virhe on tapahtunut.  
