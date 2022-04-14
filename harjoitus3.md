@@ -84,4 +84,19 @@ c)Kansiossa Harjoitus3 komento git log tulostaa seuraavat tiedot:(kuva 4)
   komento on erityisen hyvä virheitten tunnistamiseen, koska sen avulla
   nähdään helposti, missä ja milloin virhe on tapahtunut.  
 
-d) 
+d)Muokkasin aiemmin luomaani tiedostoa foobar (kuva 8),johon lisäsin
+  naurua. Tämän jälkeen ajoin komennon git reset --hard HEAD (kuva 9), 
+  joka palautti tiedostojen tilan edellisen git commitin aikaiseen
+  tilaan (kuva 10).
+
+![Kuva8](foobar1.png)
+
+  Kuva 8
+
+![Kuva9](foobar2.png)
+
+  Kuva 9
+
+![Kuva10](foobar3.png)
+
+  Kuva 10 
