@@ -24,7 +24,14 @@ a) Tämä tiedosto on Markdown-tiedosto, joka löytyy GitHub-varastosta
 
 b)Loin 5 uutta tiedostoa, jotka vein samalla kertaa git-varastooni 
   (kuva 1) komennoilla git add . , git commit ja git pull ja git push.
-  Tämän jälkeen tein tiedostojen sisältöön  muutoksia, ja vein ne uudestaan
-  samaan aikaan samoilla komennoilla git.varastoon (kuva 2). 
+  Commit messageksi laitoin "Add fifth version of harjoitus3 and add 5	
+  new configuration files", koska tämä oli viides viemäni  versio 
+  harjoitus3:sta ja vein 5 kuvitteellista "konfiguraatiotiedostoa" 
+  varastoon. Komennolla git show pystyin katsomaan, mitä on viimeksi
+  Lähettetty git commitin yhteydessä (kuva 2). Tämän jälkeen tein
+  tiedostojen sisältöön  muutoksia, ja vein ne uudestaan samaan aikaan
+  samoilla komennoilla git.varastoon (kuva 3). 
+
+![kuva1](commit1) 
 
 c) Kansiossa  
