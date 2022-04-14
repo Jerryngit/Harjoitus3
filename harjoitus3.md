@@ -100,3 +100,26 @@ d)Muokkasin aiemmin luomaani tiedostoa foobar (kuva 8),johon lisäsin
 ![Kuva10](foobar3.png)
 
   Kuva 10 
+
+e)
+
+  Lähteet:
+
+  z)ja a)
+ 
+  Commonmark contributions: Markdown Reference. Luettavissa:
+  https://commonmark.org/help/
+  
+  c)
+
+  Gallagher, James: Git Diff: A How-To Guide. 2021. Luettavissa:
+  https://careerkarma.com/blog/git-diff/
+
+  Atlassian: Git Blame. Luettavissa:
+  https://www.atlassian.com/git/tutorials/inspecting-a-repository/git-blame  
+
+  d)
+
+  Schkn: How to Git Reset to HEAD. Luettavissa:
+  https://devconnected.com/how-to-git-reset-to-head/
+ 
