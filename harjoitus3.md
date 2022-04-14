@@ -33,5 +33,9 @@ b)Loin 5 uutta tiedostoa, jotka vein samalla kertaa git-varastooni
   samoilla komennoilla git.varastoon (kuva 3). 
 
 ![Kuva1](commit1.png) 
+	Kuva 1
+
+![Kuva2](commitshow.png)
+	Kuva2
 
 c) Kansiossa  
