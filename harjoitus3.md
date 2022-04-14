@@ -10,8 +10,8 @@ z) Tämä tehtävä on tehty omalla pöytäkoneellani VM VirtualBoxissa Debian
   paremmin luettavaan muotoon.
 * Tutoriaali, jossa kokeillaan, mitä eri merkit tekevät, tässä muutama
   esimerkki:
-* #\ = Otsikko 1
-*  = Otsikko 2
+* /# = Otsikko 1
+* /##  = Otsikko 2
 * [linkki](linkin osoite)
 * ![kuva](kuvan osoite)
 * Kappalejako = yksi tyhjä rivi tekstin väliin
@@ -22,4 +22,9 @@ z) Tämä tehtävä on tehty omalla pöytäkoneellani VM VirtualBoxissa Debian
 a) Tämä tiedosto on Markdown-tiedosto, joka löytyy GitHub-varastosta
    Harjoitus 3. 
 
-b) 
+b)Loin 5 uutta tiedostoa, jotka vein samalla kertaa git-varastooni 
+  (kuva 1) komennoilla git add . , git commit ja git pull ja git push.
+  Tämän jälkeen tein tiedostojen sisältöön  muutoksia, ja vein ne uudestaan
+  samaan aikaan samoilla komennoilla git.varastoon (kuva 2). 
+
+c) Kansiossa  
