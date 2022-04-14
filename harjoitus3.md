@@ -12,9 +12,14 @@ z) Tämä tehtävä on tehty omalla pöytäkoneellani VM VirtualBoxissa Debian
   esimerkki:
 *  = Otsikko 1
 *  = Otsikko 2
-* '[linkki](linkin osoite)'
-* '![kuva](kuvan osoite)'
+* [linkki](linkin osoite)
+* ![kuva](kuvan osoite)
 * Kappalejako = yksi tyhjä rivi tekstin väliin
 * Tab = sisentää koodia, jolloin se tulee näkyviin palikan sisään
-* * tähtiä allekkain = lista palloilla
-* 1. numeroita allekkain = lista numeroilla 
+* Tähtiä allekkain = lista palloilla
+* Numeroita allekkain = lista numeroilla 
+
+a) Tämä tiedosto on Markdown-tiedosto, joka löytyy GitHub-varastosta
+   Harjoitus 3. 
+
+b) 
