@@ -71,7 +71,7 @@ c) Kansiossa Harjoitus3 komento `git log` tulostaa seuraavat tiedot:(kuva 4)
 
    Kuva 6
 
-   `Git Blame` -komennolle löysin Atlassian Git Blame-tutoriaalista seuraavan
+   `git Blame` -komennolle löysin Atlassian Git Blame-tutoriaalista seuraavan
    käyttötarkoituksen: kun ajaa esim. `git blame harjoitus3.md` -komennon,
    tulos on seuraavanlainen: (kuva 7)
 
@@ -85,8 +85,8 @@ c) Kansiossa Harjoitus3 komento `git log` tulostaa seuraavat tiedot:(kuva 4)
    nähdään helposti, missä ja milloin virhe on tapahtunut.  
 
 d) Muokkasin aiemmin luomaani tiedostoa foobar (kuva 8),johon lisäsin
-   naurua. Tämän jälkeen ajoin komennon `git reset --hard HEAD` (kuva 9), 
-   joka palautti tiedostojen tilan edellisen git commitin aikaiseen
+   naurua. Tämän jälkeen ajoin komennon `git reset --hard HEAD` 
+   (kuva 9), joka palautti tiedostojen tilan edellisen git commitin aikaiseen
    tilaan (kuva 10).
 
 ![Kuva8](foobar1.png)
@@ -128,16 +128,34 @@ e) Tässä tehtävässä loin salt-tilan (kuva 11) /srv/salt/jerryntila/
    osoittavat, että tilani on idempotentti, eli komennon uudestaanajaminen
    ei muuta mitään.
 
-   Tässä vielä kuvat tilan luomasta public_html -hakemistosta (kuva 14) ja
-   tilan sinne luomasta index.html -tiedostosta (kuva 15). 
+   Jos haluaisin ajaa tilan orjakoneelleni komennolla
+   `sudo salt '*' state.apply jerryntila` , tulos olisi seuraavanlainen:
+   (kuvat 14 ja 15)
 
-![Kuva14](html.png)
+![Kuva14](apache4.png)
 
-   Kuva 14
+   Kuva 14  
 
-![Kuva15](index.png)
+![Kuva15](apache5.png)
 
    Kuva 15
+
+   Tässä näemme, ettei tilaa voi ajaa orjakoneille, koska kyseistä /home/jerry/
+   -hakemistoa ei ole orjakoneella. Tässä tilassa kotihakemiston kohdalle tulisi
+   aina asettaa kyseisen koneen kotihakemisto, esim /home/jerry2/. Tila ei siis
+   ole kovin käytännöllinen kuin vain paikallisesti, koska kotihakemisto pitää
+   sijoittaa aina uudestaan.
+
+   Tässä vielä kuvat tilan luomasta public_html -hakemistosta (kuva 16) ja
+   tilan sinne luomasta index.html -tiedostosta (kuva 17). 
+
+![Kuva16](html.png)
+
+   Kuva 16
+
+![Kuva17](index.png)
+
+   Kuva 17
 
 ### Lähteet:
 
