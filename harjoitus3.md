@@ -101,18 +101,29 @@ d) Muokkasin aiemmin luomaani tiedostoa foobar (kuva 8),johon lisäsin
 
    Kuva 10 
 
-e) Tässä tehtävässä loin salt-tilan (kuva 11) ,joka asentaa Apache2:n
-   (pkg.installed),luo Public_html -hakemiston käyttäjän kotihakemistoon
-   (file.directory) ja luo kyseiseen hakemistoon index.html -sivun
-   (file.managed). Tila myös käynnistää Apache2:n järjestelmän
-   käynnistyksen yhteydessä (enable: True) ja varmistaa, että Apache2 on 
-   käynnissä (service.running).
+e) Tässä tehtävässä loin salt-tilan (kuva 11) /srv/salt/jerryntila/ 
+   -hakemistoon,joka asentaa Apache2:n (pkg.installed),luo Public_html 
+   -hakemiston käyttäjän kotihakemistoon (file.directory) ja luo kyseiseen 
+   hakemistoon index.html -sivun (file.managed). Tila myös käynnistää Apache2:n
+   järjestelmän käynnistyksen yhteydessä (enable: True) ja varmistaa, että 
+   Apache2 on käynnissä (service.running).
   
 ![Kuva11](apache.png)
 
-   Kuva 11  
+   Kuva 11 
 
-###Lähteet:
+   Kun ajan tilan komennolla sudo salt-call --local state.apply jerryntila
+   tulos on seuraavanlainen: (kuvat 12 ja 13)
+
+![Kuva12](apache2.png)
+
+   Kuva 12 
+
+![Kuva13](apache3.png)
+
+   Kuva 13
+
+### Lähteet:
 
   z) ja a)
  
