@@ -102,7 +102,7 @@ d) Muokkasin aiemmin luomaani tiedostoa foobar (kuva 8),johon lisäsin
    Kuva 10 
 
 e) Tässä tehtävässä loin salt-tilan (kuva 11) /srv/salt/jerryntila/ 
-   -hakemistoon,joka asentaa Apache2:n (pkg.installed),luo Public_html 
+   -hakemistoon,joka asentaa Apache2:n (pkg.installed),luo public_html 
    -hakemiston käyttäjän kotihakemistoon (file.directory) ja luo kyseiseen 
    hakemistoon index.html -sivun (file.managed). Tila myös käynnistää Apache2:n
    järjestelmän käynnistyksen yhteydessä (enable: True) ja varmistaa, että 
@@ -122,6 +122,21 @@ e) Tässä tehtävässä loin salt-tilan (kuva 11) /srv/salt/jerryntila/
 ![Kuva13](apache3.png)
 
    Kuva 13
+
+   Tässä tapauksessa olen ajanut komennon jo aiemmin, jolloin nämä kuvat 
+   osoittavat, että tilani on idempotentti, eli komennon uudestaanajaminen
+   ei muuta mitään.
+
+   Tässä vielä kuvat tilan luomasta public_html -hakemistosta (kuva 14) ja
+   index.html -tiedostosta (kuva 15). 
+
+![Kuva14](html.png)
+
+   Kuva 14
+
+![Kuva15](index.png)
+
+   Kuva 15
 
 ### Lähteet:
 
