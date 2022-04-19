@@ -101,9 +101,18 @@ d)Muokkasin aiemmin luomaani tiedostoa foobar (kuva 8),johon lisäsin
 
   Kuva 10 
 
-e)
+e)Tässä tehtävässä loin salt-tilan (kuva 11) ,joka asentaa Apache2:n
+  (pkg.installed),luo Public_html -hakemiston käyttäjän kotihakemistoon
+  (file.directory) ja luo kyseiseen hakemistoon index.html -sivun
+  (file.managed). Tila myös käynnistää Apache2:n järjestelmän
+  käynnistyksen yhteydessä (enable: True) ja varmistaa, että Apache2 on 
+  käynnissä (service.running).
+  
+![Kuva11](apache.png)
 
-  Lähteet:
+  Kuva 11  
+
+##Lähteet:
 
   z)ja a)
  
@@ -123,3 +132,13 @@ e)
   Schkn: How to Git Reset to HEAD. Luettavissa:
   https://devconnected.com/how-to-git-reset-to-head/
  
+  e)
+
+  SaltStack: salt.states.service. 2022. Luettavissa:
+  https://docs.saltproject.io/en/latest/ref/states/all/salt.states.service.html
+  
+  SaltStack: salt.states.pkg. 2022. Luettavissa:
+  https://docs.saltproject.io/en/latest/ref/states/all/salt.states.pkg.html
+
+  SaltStack: salt.states.file. 2022. Luettavissa: 
+  https://docs.saltproject.io/en/latest/ref/states/all/salt.states.file.html
