@@ -144,18 +144,30 @@ e) Tässä tehtävässä loin salt-tilan (kuva 11) /srv/salt/jerryntila/
    -hakemistoa ei ole orjakoneella. Tässä tilassa kotihakemiston kohdalle tulisi
    aina asettaa kyseisen koneen kotihakemisto, esim /home/jerry2/. Tila ei siis
    ole kovin käytännöllinen kuin vain paikallisesti, koska kotihakemisto pitää
-   sijoittaa aina uudestaan.
+   sijoittaa aina uudestaan. Jos taas kotihakemisto asetetaan /home/jerry2/,
+   Komento voidaan suorittaa ilman virheitä: (kuva 16 ja 17)
 
-   Tässä vielä kuvat tilan luomasta public_html -hakemistosta (kuva 16) ja
-   tilan sinne luomasta index.html -tiedostosta (kuva 17). 
-
-![Kuva16](html.png)
+![Kuva16](apache6.png)
 
    Kuva 16
 
-![Kuva17](index.png)
+![Kuva17](apache7.png)
 
    Kuva 17
+
+   Seuraava vaihe olisikin tehdä tilasta sellainen, ettei kotihakemistoa 
+   tarvitse muuttaa. 
+
+   Tässä vielä kuvat tilan luomasta public_html -hakemistosta (kuva 18) ja
+   tilan sinne luomasta index.html -tiedostosta (kuva 19). 
+
+![Kuva18](html.png)
+
+   Kuva 18
+
+![Kuva19](index.png)
+
+   Kuva 19
 
 ### Lähteet:
 
